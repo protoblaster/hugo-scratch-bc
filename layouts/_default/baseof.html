@@ -3,9 +3,11 @@
 <head>
     {{- partial "head.html" . -}}
 </head>
-<body class="bg-slate-900 text-sky-400">
-    {{- partial "header.html" . -}}
-    {{ block "main" . }}{{ end }}
-    {{- partial "footer.html" . -}}
+<body>
+    <div class="container bg-slate-900 text-sky-450">
+        {{- partial "header.html" . -}}
+        {{ block "main" . }}{{ end }}
+        {{- partial "footer.html" . -}}
+    </div>
 </body>
 </html>

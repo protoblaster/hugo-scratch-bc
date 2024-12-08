@@ -5,4 +5,4 @@ title = 'Berkay Cubuk Youtube Tutorial'
 [params]
     [[params.author]]
         name = "XTC"
-        email "xtc@fuxnews.com"
+        email = "xtc@fuxnews.com"
